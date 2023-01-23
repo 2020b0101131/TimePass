@@ -1,292 +1,314 @@
-h1 {
-    color: green;
-    text-decoration: underline;
-    text-align: center;
-    margin: auto;
-    padding-top: 1.56%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-#header {
-    width: auto;
-    height: 150px;
-    background-color: lightgoldenrodyellow;
-    border-radius: 10px;
-    position: relative;
-    border: 15px solid lightgoldenrodyellow;
-    margin-top: -2%;
-    margin-left: -10%;
-    margin-right: -10%;
-    margin-bottom: -31;
-}
-
-#tic_right {
-    position: relative;
-    bottom: 400;
-    left: 513px;
-    width: 600px;
-    height: 350px;
-    align-content: center;
-    background-color: lightblue;
-    border-radius: 20px;
-    border: 20px solid rgb(0, 81, 255);
-    margin-left: 2%;
-}
-
-#spot_left {
-    position: relative;
-    border: 20px solid green;
-    width: 600px;
-    height: 350px;
-    border-radius: 20px;
-    background-color: rgb(182, 255, 200);
-}
-
-#thought {
-    position: relative;
-    width: auto;
-    height: 100px;
-    background-color: rgb(255, 196, 0);
-    padding: 30px;
-    margin-top: 30px;
-    bottom: 400px;
-    text-align: justify;
-    border-radius: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-#spotify {
-    position: relative;
-    bottom: 400px;
-    margin: 30px;
-    margin-top: -10;
-}
-
-body {
-    margin: 30px;
-}
-
-#first {
-    border-radius: 30px;
-    margin-left: 2%;
-}
-
-#second {
-    border-radius: 30px;
-}
-
-button1 {
-    background-color: #4c53af;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: justify;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 30%;
-}
-
-button2 {
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: justify;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 37%;
-}
-
-p {
-    line-height: 25px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: larger;
-}
-
-h3 {
-    margin-top: 0%;
-    font-size: 35px;
-    margin-bottom: -1%;
-    padding-left: 10px;
-}
-
-h2 {
-    font-size: 50px;
-}
-
-#subhead1 {
-    font-size: 50px;
-    border: 10px solid chocolate;
-    margin-left: -2%;
-    margin-right: -2%;
-    border-radius: 10px;
-    background-color: chocolate;
-    padding-left: 3%;
-}
-
-#subhead2 {
-    font-size: 50px;
-    border: 10px solid chocolate;
-    margin-left: -5%;
-    margin-right: -5%;
-    border-radius: 10px;
-    background-color: chocolate;
-    padding-left: 3%;
-}
-
-#time {
-    font-size: 30px;
-}
-
-ol {
-    padding-bottom: 20%;
-}
-
-#foot {
-    display: block;
-    color: white;
-    background-color: black;
-    text-align: center;
-}
-
-body {
-    margin-bottom: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-    #header {
-        width: 78rem;
-        height: 221px;
-        background-color: black;
-        border-radius: 10px;
-        position: relative;
-        border: 15px solid black;
-        margin-top: -2%;
-        margin-left: -10%;
-        margin-right: -10%;
-        margin-bottom: -31;
-        margin-top: -2rem;
-    }
-    h1 {
-        font-family: cursive;
-        font-size: 83px;
-        padding-left: 4rem;
-    }
-    #subhead1 {
-        width: 78rem;
-        height: 9rem;
-        font-size: 5rem;
-        padding-top: 3rem;
-        position: absolute;
-        margin-top: 2rem;
-        margin-left: -2rem;
-        text-align: center;
-        height: 14rem;
-    }
-    #tic_right {
-        margin-top: 39rem;
-        width: 77rem;
-        height: 35rem;
-        margin-left: -34rem;
-        font-size: 31px;
-        border: 20px solid black;
-    }
-    #first {
-        margin-top: 20rem;
-        margin-left: 19rem;
-        width: 36rem;
-        height: 33rem;
-        margin-bottom: -14rem;
-    }
-    h3 {
-        font-size: 5rem;
-        font-family: cursive;
-    }
-    button1 {
-        font-size: 29px;
-        margin-left: 39%;
-        margin-top: -5rem;
-        position: absolute;
-        background-color: black;
-    }
-    #thought {
-        margin-top: 0rem;
-        width: 76rem;
-        margin-left: -2rem;
-        border-radius: 0px;
-    }
-    #time {
-        font-size: 34px;
-    }
-    #subhead2 {
-        width: 78rem;
-        margin-left: -4rem;
-        border-radius: 0px;
-        margin-top: 0rem;
-        height: 12rem;
-        font-size: 77px;
-        text-align: center;
-        padding-top: 4rem;
-    }
-    #second {
-        border-radius: 30px;
-        margin-top: -4rem;
-        width: 42rem;
-        height: 31rem;
-        margin-right: -43rem;
-        border-radius: 0px;
-    }
-    #spot_left {
-        margin-top: 31rem;
-        width: 77rem;
-        margin-left: -4rem;
-        height: 34rem;
-        border: 20px solid black;
-    }
-    p {
-        font-size: 42px;
-        line-height: 39px;
-    }
-    button2 {
-        font-size: 2rem;
-        margin-top: -3rem;
-        margin-left: 31rem;
-        background-color: black;
-    }
-    footer {
-        width: 80rem;
-        text-align: center;
-        height: 4rem;
-        font-size: 2rem;
-        padding-top: -0.5px;
-        background-color: black;
-        margin-top: -28rem;
-        margin-left: -2rem;
-        padding-top: 0px;
-    }
-    h4 {
-        padding-top: 12px;
-        color: white;
-    }
-    h1 {
-        font-size: 6rem;
-        font-family: cursive;
-        text-decoration: none;
-        text-align: center;
-        padding-left: 1rem;
-        padding-top: 2rem;
-        color: white;
-    }
-    html {
-        background-color: gray;
-    }
-}
+        h1 {
+            font-size: 7rem;
+            padding-top: 1rem;
+            color: green;
+            text-decoration: underline;
+            text-align: center;
+            margin: auto;
+            padding-top: 1.56%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        footer {
+            width: 79rem;
+            height: 4rem;
+            font-size: 2rem;
+            padding-top: -0.5px;
+            background-color: lightgoldenrodyellow;
+            margin-top: -6rem;
+            margin-left: -2rem;
+            padding-top: 0px;
+        }
+        
+        h4 {
+            margin-top: 12.5px;
+            padding-left: 21rem;
+            color: black;
+            position: absolute;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #header {
+            width: auto;
+            height: 150px;
+            background-color: lightgoldenrodyellow;
+            border-radius: 10px;
+            position: relative;
+            border: 15px solid lightgoldenrodyellow;
+            margin-top: -2%;
+            margin-left: -10%;
+            margin-right: -10%;
+            margin-bottom: -31;
+        }
+        
+        html {
+            background-color: gray;
+        }
+        
+        #tic_right {
+            position: relative;
+            bottom: 400;
+            left: 513px;
+            width: 600px;
+            height: 350px;
+            align-content: center;
+            background-color: lightblue;
+            border-radius: 20px;
+            border: 20px solid rgb(0, 81, 255);
+            margin-left: 2%;
+        }
+        
+        #spot_left {
+            position: relative;
+            border: 20px solid green;
+            width: 600px;
+            height: 350px;
+            border-radius: 20px;
+            background-color: rgb(182, 255, 200);
+        }
+        
+        #thought {
+            position: relative;
+            width: auto;
+            height: 100px;
+            background-color: rgb(255, 196, 0);
+            padding: 30px;
+            margin-top: 30px;
+            bottom: 400px;
+            text-align: justify;
+            border-radius: 20px;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        
+        #spotify {
+            position: relative;
+            bottom: 400px;
+            margin: 30px;
+            margin-top: -10;
+        }
+        
+        body {
+            margin: 30px;
+        }
+        
+        #first {
+            border-radius: 30px;
+            margin-left: 2%;
+        }
+        
+        #second {
+            border-radius: 30px;
+        }
+        
+        button1 {
+            background-color: #4c53af;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: justify;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 30%;
+        }
+        
+        button2 {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: justify;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-left: 37%;
+        }
+        
+        p {
+            line-height: 25px;
+            padding-left: 5%;
+            padding-right: 5%;
+            font-size: larger;
+        }
+        
+        h3 {
+            margin-top: 0%;
+            font-size: 35px;
+            margin-bottom: -1%;
+            padding-left: 10px;
+        }
+        
+        h2 {
+            font-size: 50px;
+        }
+        
+        #subhead1 {
+            font-size: 50px;
+            border: 10px solid chocolate;
+            margin-left: -2%;
+            margin-right: -2%;
+            border-radius: 10px;
+            background-color: chocolate;
+            padding-left: 3%;
+        }
+        
+        #subhead2 {
+            font-size: 50px;
+            border: 10px solid chocolate;
+            margin-left: -5%;
+            margin-right: -5%;
+            border-radius: 10px;
+            background-color: chocolate;
+            padding-left: 3%;
+        }
+        
+        #time {
+            font-size: 30px;
+        }
+        
+        ol {
+            padding-bottom: 20%;
+        }
+        
+        #foot {
+            display: block;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        
+        body {
+            margin-bottom: 5px;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            #header {
+                width: 78rem;
+                height: 29rem;
+                background-color: black;
+                border-radius: 10px;
+                position: relative;
+                border: 15px solid black;
+                margin-top: -2%;
+                margin-left: -10%;
+                margin-right: -10%;
+                margin-bottom: -31;
+                margin-top: -2rem;
+            }
+            h1 {
+                font-size: 8rem;
+                font-family: cursive;
+                text-decoration: none;
+                text-align: center;
+                padding-left: 1rem;
+                padding-top: 2rem;
+                color: white;
+            }
+            #subhead1 {
+                width: 78rem;
+                height: 9rem;
+                font-size: 5rem;
+                padding-top: 3rem;
+                position: absolute;
+                margin-top: 2rem;
+                margin-left: -2rem;
+                text-align: center;
+                height: 14rem;
+            }
+            #tic_right {
+                margin-top: 39rem;
+                width: 77rem;
+                height: 50rem;
+                margin-left: -34rem;
+                font-size: 42.5px;
+                border: 20px solid black;
+                text-align: justify;
+                padding-left: 11px;
+            }
+            #first {
+                margin-top: 20rem;
+                margin-left: 14rem;
+                width: 48rem;
+                height: 53rem;
+                margin-bottom: -14rem;
+            }
+            h3 {
+                font-size: 5rem;
+                font-family: cursive;
+            }
+            button1 {
+                font-size: 29px;
+                margin-left: 37%;
+                margin-top: -5rem;
+                position: absolute;
+                background-color: black;
+            }
+            #thought {
+                margin-top: 0rem;
+                width: 76rem;
+                margin-left: -2rem;
+                border-radius: 0px;
+            }
+            #time {
+                font-size: 34px;
+            }
+            #subhead2 {
+                width: 78rem;
+                margin-left: -4rem;
+                border-radius: 0px;
+                margin-top: 0rem;
+                height: 12rem;
+                font-size: 77px;
+                text-align: center;
+                padding-top: 4rem;
+            }
+            #second {
+                margin-top: -4rem;
+                width: 52rem;
+                height: 53rem;
+                margin-right: -48rem;
+                border-radius: 0px;
+            }
+            #spot_left {
+                margin-top: 53rem;
+                width: 77rem;
+                margin-left: -4rem;
+                height: 50rem;
+                border: 20px solid black;
+            }
+            p {
+                font-size: 56px;
+                line-height: 49px;
+            }
+            button2 {
+                font-size: 2rem;
+                margin-top: -3rem;
+                margin-left: 31rem;
+                background-color: black;
+            }
+            footer {
+                width: 80rem;
+                text-align: center;
+                height: 4rem;
+                font-size: 2rem;
+                padding-top: -0.5px;
+                background-color: black;
+                margin-top: -28rem;
+                margin-left: -2rem;
+                padding-top: 0px;
+            }
+            h4 {
+                padding-top: 12px;
+                color: white;
+                padding-left: 20rem;
+                width: 41rem;
+            }
+            html {
+                background-color: gray;
+            }
+        }
