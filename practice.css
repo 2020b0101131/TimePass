@@ -251,6 +251,10 @@
                 font-size: 5rem;
                 font-family: cursive;
             }
+            pre {
+                font-size: 30px;
+                text-align: center
+            }
             button1 {
                 font-size: 29px;
                 margin-left: 37%;
