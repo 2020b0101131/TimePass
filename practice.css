@@ -207,13 +207,14 @@
                 margin-top: -2rem;
             }
             h1 {
-                font-size: 7rem;
+                font-size: 8rem;
                 font-family: cursive;
                 text-decoration: none;
                 text-align: center;
                 padding-left: 1rem;
                 padding-top: 4rem;
                 color: white;
+                width: 76rem;
             }
             #add {
                 padding-top: 1rem;
@@ -234,7 +235,7 @@
                 width: 77rem;
                 height: 50rem;
                 margin-left: -34rem;
-                font-size: 41.5px;
+                font-size: 38px;
                 border: 20px solid black;
                 text-align: justify;
                 padding-left: 11px;
