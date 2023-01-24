@@ -214,7 +214,7 @@
                 padding-left: 1rem;
                 padding-top: 4rem;
                 color: white;
-                width: 48rem;
+                width: 73rem;
             }
             #add {
                 padding-top: 1rem;
@@ -232,10 +232,10 @@
             }
             #tic_right {
                 margin-top: 39rem;
-                width: 77rem;
+                width: 76rem;
                 height: 50rem;
                 margin-left: -34rem;
-                font-size: 31px;
+                font-size: 40px;
                 border: 20px solid black;
                 text-align: justify;
                 padding-left: 11px;
@@ -281,11 +281,12 @@
                 margin-top: -4rem;
                 width: 52rem;
                 height: 53rem;
-                margin-right: -48rem;
-                border-radius: 0px;
+                margin-right: -50rem;
+                border-radius: 1rem;
+                border: 19px solid white;
             }
             #spot_left {
-                margin-top: 53rem;
+                margin-top: 56rem;
                 width: 77rem;
                 margin-left: -4rem;
                 height: 50rem;
